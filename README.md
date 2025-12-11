@@ -1,1 +1,40 @@
 # vizytivka
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Візитна картка — Том Гарді</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-dark bg-dark mb-4">
+        <div class="container">
+            <span class="navbar-brand mb-0 h1">Том Гарді</span>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Tom_Hardy_Cannes_2015.jpg" class="card-img-top" alt="Tom Hardy" />
+                    <div class="card-body">
+                        <h3 class="card-title text-center">Том Гарді</h3>
+                        <p class="text-center text-muted">Актор, продюсер</p>
+                        <hr />
+                        <p><strong>Дата народження:</strong> 15 вересня 1977</p>
+                        <p><strong>Відомі роботи:</strong> «Темний лицар: Повернення», «Шалений Макс: Дорога люті», «Веном»</p>
+                        <p><strong>Соцмережі:</strong></p>
+                        <ul>
+                            <li><a href="https://www.instagram.com/tomhardy" target="_blank">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
